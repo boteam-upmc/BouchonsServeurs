@@ -9,7 +9,7 @@ import java.net.UnknownHostException;
 public class ClientAndroid {
 
 	private static int PORT = 1337;	
-	private static String ID_EXPECTED 	= "ID-USER:1, ID-ROBOT:1\r";
+	private static String ID_EXPECTED 	= "ASSOC/1/1\r";
 	
 	private static Socket soc;
 	

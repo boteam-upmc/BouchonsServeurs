@@ -9,9 +9,9 @@ import java.net.Socket;
 public class ServeurWeb {
 
 	private static int PORT = 1337;	
-	private static String ID_EXPECTED 	= "ID-USER:1, ID-ROBOT:1\r";
-	private static String VALID_ID		= "ID-ROBOT:TRUE\r";
-	private static String UNVALID_ID	= "ID-ROBOT:FALSE\r";
+	private static String ID_EXPECTED 	= "ASSOC/1/1\r";
+	private static String VALID_ID		= "VALID/TRUE\r";
+	private static String UNVALID_ID	= "VALID/FALSE\r";
 	
 	private static ServerSocket soc;
 	
