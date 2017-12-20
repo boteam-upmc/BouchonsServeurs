@@ -8,7 +8,7 @@ import java.net.Socket;
 
 public class ServeurWeb {
 
-	private static int PORT = 1337;	
+	private static int PORT = 60372;	
 	private static String ID_EXPECTED 	= "ASSOC/1/1\r";
 	private static String VALID_ID		= "VALID/TRUE\r";
 	private static String UNVALID_ID	= "VALID/FALSE\r";
